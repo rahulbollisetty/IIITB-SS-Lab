@@ -1,0 +1,15 @@
+total 0
+dr-x------ 2 fledlucifer fledlucifer 12 Aug 11 23:11 ./
+dr-xr-xr-x 9 fledlucifer fledlucifer  0 Aug 11 23:10 ../
+lrwx------ 1 fledlucifer fledlucifer 64 Aug 11 23:12 0 -> /dev/pts/1 (deleted)
+lrwx------ 1 fledlucifer fledlucifer 64 Aug 11 23:12 1 -> /dev/pts/1 (deleted)
+lr-x------ 1 fledlucifer fledlucifer 64 Aug 11 23:12 103 -> /snap/code/137/usr/share/code/v8_context_snapshot.bin
+lrwx------ 1 fledlucifer fledlucifer 64 Aug 11 23:12 2 -> /dev/pts/1 (deleted)
+lr-x------ 1 fledlucifer fledlucifer 64 Aug 11 23:12 3 -> /home/fledlucifer/Desktop/iiitb/IIITB-SS-Lab/HandsOn/5/File1.txt*
+l-wx------ 1 fledlucifer fledlucifer 64 Aug 11 23:12 38 -> /home/fledlucifer/.config/Code/logs/20230811T230925/ptyhost.log
+lrwx------ 1 fledlucifer fledlucifer 64 Aug 11 23:12 39 -> socket:[586135]
+lr-x------ 1 fledlucifer fledlucifer 64 Aug 11 23:12 4 -> /home/fledlucifer/Desktop/iiitb/IIITB-SS-Lab/HandsOn/5/File2.txt*
+lr-x------ 1 fledlucifer fledlucifer 64 Aug 11 23:12 40 -> /snap/code/137/usr/share/code/resources/app/node_modules.asar
+lr-x------ 1 fledlucifer fledlucifer 64 Aug 11 23:12 5 -> /home/fledlucifer/Desktop/iiitb/IIITB-SS-Lab/HandsOn/5/File3.txt*
+lr-x------ 1 fledlucifer fledlucifer 64 Aug 11 23:12 6 -> /home/fledlucifer/Desktop/iiitb/IIITB-SS-Lab/HandsOn/5/File4.txt*
+lr-x------ 1 fledlucifer fledlucifer 64 Aug 11 23:12 7 -> /home/fledlucifer/Desktop/iiitb/IIITB-SS-Lab/HandsOn/5/File5.txt*
