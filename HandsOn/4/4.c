@@ -4,7 +4,7 @@
 #include <fcntl.h>
 
 int main(){
-    int fd = open("../1/demoFile.txt",O_RDWR,"RW");
+    int fd = open("../1/demoFile.txt",O_RDWR|O_EXCL,"RW");
     if(fd<0){
         perror("failed to open");
     }
