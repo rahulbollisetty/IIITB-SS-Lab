@@ -1,3 +1,21 @@
+/*
+============================================================================
+Name : 18.c
+Author : B Rahul
+Description :  Write a program to perform Record locking.
+                a. Implement write lock
+                b. Implement read lock
+                Create three records in a file. Whenever you access a particular record, first lock it then modify/access
+                to avoid race condition.
+Date: 25th Aug, 2023.
+============================================================================
+*/
+
+/* 
+============================================================================
+------------------------------CODE------------------------------------------
+============================================================================
+*/
 #include<stdio.h>
 #include<sys/types.h>
 #include<sys/stat.h>
@@ -38,3 +56,19 @@ int main(){
     write(1,"Closing\n",9);
     close(fd);
 }
+
+/* 
+============================================================================
+------------------------------OUTPUT----------------------------------------
+============================================================================
+Run : gcc read.c -o read
+Run : ./read
+    Output : 
+        Enter the record number to access{1,2,3}: 1
+        Before the critical section
+        Inside the critical section
+        Record Data: 15
+        Press Enter to unlock
+        Closing
+============================================================================
+*/

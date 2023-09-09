@@ -1,3 +1,20 @@
+/*
+============================================================================
+Name : 8.c
+Author : B Rahul
+Description : Write a program to open a file in read only mode, read line by line and display each line as it is read.
+              Close the file when end of file is reached. 
+
+Date: 18th Aug, 2023.
+============================================================================
+*/
+
+/* 
+============================================================================
+------------------------------CODE------------------------------------------
+============================================================================
+*/
+
 #include<stdio.h>
 #include <unistd.h>
 #include<stdlib.h>
@@ -34,6 +51,18 @@ int main(int argc, char *argv[]){
         }
     }
     close(f1);
-
+    
     return 0;
 }
+
+/* 
+============================================================================
+------------------------------OUTPUT----------------------------------------
+============================================================================
+Run : gcc 8.c
+Run : ./a.out
+    Output: 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus turpis magna, 
+        ut placerat nulla maximus quis. Aenean imperdiet ut ipsum eu tempus. Integer dictum lectus arcu.
+============================================================================
+*/

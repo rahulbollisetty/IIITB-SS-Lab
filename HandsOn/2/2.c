@@ -1,6 +1,92 @@
+/*
+============================================================================
+Name : 2.c
+Author : B Rahul
+Description : Write a simple program to execute in an infinite loop at the background. Go to /proc directory and
+              identify all the process related information in the corresponding proc directory.
+              
+Date: 11th Aug, 2023.
+============================================================================
+*/
+
+/* 
+============================================================================
+------------------------------CODE------------------------------------------
+============================================================================
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(){
     while (1);
 }               
+
+/* 
+============================================================================
+------------------------------OUTPUT----------------------------------------
+============================================================================
+Run : gcc 2.c
+Run : cat /proc/4315/status
+    Output : 
+    Name:   a.out
+            Umask:  0002
+            State:  R (running)
+            Tgid:   4315
+            Ngid:   0
+            Pid:    4315
+            PPid:   3504
+            TracerPid:      0
+            Uid:    1000    1000    1000    1000
+            Gid:    1000    1000    1000    1000
+            FDSize: 256
+            Groups: 27 999 1000 
+            NStgid: 4315
+            NSpid:  4315
+            NSpgid: 4315
+            NSsid:  3504
+            VmPeak:     2704 kB
+            VmSize:     2644 kB
+            VmLck:         0 kB
+            VmPin:         0 kB
+            VmHWM:       896 kB
+            VmRSS:       896 kB
+            RssAnon:               0 kB
+            RssFile:             896 kB
+            RssShmem:              0 kB
+            VmData:       92 kB
+            VmStk:       136 kB
+            VmExe:         4 kB
+            VmLib:      1796 kB
+            VmPTE:        36 kB
+            VmSwap:        0 kB
+            HugetlbPages:          0 kB
+            CoreDumping:    0
+            THP_enabled:    1
+            Threads:        1
+            SigQ:   0/36422
+            SigPnd: 0000000000000000
+            ShdPnd: 0000000000000000
+            SigBlk: 0000000000000000
+            SigIgn: 0000000000000000
+            SigCgt: 0000000000000000
+            CapInh: 0000000000000000
+            CapPrm: 0000000000000000
+            CapEff: 0000000000000000
+            CapBnd: 000001ffffffffff
+            CapAmb: 0000000000000000
+            NoNewPrivs:     0
+            Seccomp:        0
+            Seccomp_filters:        0
+            Speculation_Store_Bypass:       vulnerable
+            SpeculationIndirectBranch:      always enabled
+            Cpus_allowed:   f
+            Cpus_allowed_list:      0-3
+            Mems_allowed:   00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,
+                            00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,
+                            00000000,00000000,00000000,00000001
+            Mems_allowed_list:      0
+            voluntary_ctxt_switches:        1
+            nonvoluntary_ctxt_switches:     1278
+============================================================================
+*/

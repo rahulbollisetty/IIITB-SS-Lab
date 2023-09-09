@@ -1,3 +1,28 @@
+/*
+============================================================================
+Name : 9.c
+Author : B Rahul
+Description : Write a program to print the following information about a given file.
+                a. inode
+                b. number of hard links
+                c. uid
+                d. gid
+                e. size
+                f. block size
+                g. number of blocks
+                h. time of last access
+                i. time of last modification
+                j. time of last change 
+
+Date: 24th Aug, 2023.
+============================================================================
+*/
+
+/* 
+============================================================================
+------------------------------CODE------------------------------------------
+============================================================================
+*/
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <stdio.h>
@@ -26,3 +51,23 @@ int main(int argc, char *argv[]){
 
     }
 }
+
+
+/* 
+============================================================================
+------------------------------OUTPUT----------------------------------------
+============================================================================
+Run : gcc 9.c
+Run : ./a.out
+    Output: 
+    I-node number: 8128560
+    Link: 1
+    UID:  1000      GID: 1000
+    File size:  2960
+    Block size:  4096
+    Number of blocks allocated:  8
+    Last file access:         Thu Sep  7 22:45:28 2023
+    Last file modification:   Thu Aug 24 23:31:38 2023
+    Last status change:       Thu Aug 24 23:31:38 2023
+============================================================================
+*/
