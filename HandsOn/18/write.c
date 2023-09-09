@@ -1,10 +1,9 @@
 /*
 ============================================================================
-Name : 18.c
+Name : 18a.c
 Author : B Rahul
 Description :  Write a program to perform Record locking.
                 a. Implement write lock
-                b. Implement read lock
                 Create three records in a file. Whenever you access a particular record, first lock it then modify/access
                 to avoid race condition.
 Date: 25th Aug, 2023.
@@ -70,7 +69,7 @@ int main(){
 ============================================================================
 ------------------------------OUTPUT----------------------------------------
 ============================================================================
-Run : gcc write.c -o write
+Run : gcc 18a.c -o write
 Run : ./write
     Output : 
         Enter the record number to access{1,2,3}: 1
