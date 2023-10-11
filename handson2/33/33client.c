@@ -1,10 +1,10 @@
 /*
 ============================================================================    
 Name : 33_cli.c
-Author : Siddharth V. Pillai
+Author : B Rahul
 Description : Write a program to communicate between two machines using socket.
 client program
-Date: 9th Oct, 2023.
+Date: 11th Oct, 2023.
 ============================================================================
 */
 

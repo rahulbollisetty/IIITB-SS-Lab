@@ -1,10 +1,10 @@
 /*
 ============================================================================    
 Name : 33_serv.c
-Author : Siddharth V. Pillai
+Author : B Rahul
 Description : Write a program to communicate between two machines using socket.
 Server program
-Date: 9th Oct, 2023.
+Date: 11th Oct, 2023.
 ============================================================================
 */
 #include<stdio.h>
