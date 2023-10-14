@@ -1,6 +1,6 @@
 /*
 ============================================================================    
-Name : 33_cli.c
+Name : 33_client.c
 Author : B Rahul
 Description : Write a program to communicate between two machines using socket.
 client program
