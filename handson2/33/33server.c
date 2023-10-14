@@ -1,6 +1,6 @@
 /*
 ============================================================================    
-Name : 33_serv.c
+Name : 33_server.c
 Author : B Rahul
 Description : Write a program to communicate between two machines using socket.
 Server program
